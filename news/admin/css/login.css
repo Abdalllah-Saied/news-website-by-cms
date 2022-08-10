@@ -1,0 +1,52 @@
+.form {
+    width: 500px;
+    height: 430px;
+    margin-left: 35%;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 15px 15px 33px #a2a9af,
+        16px 16px 20px #a2a9af;
+    z-index: 1;
+    margin-top: 10%;
+    background-color:white;
+}
+
+body {
+    background-color: #ebedec;
+}
+
+.btn {
+    margin-left: 80%;
+    background-color: #2a6971;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #3faab8;
+}
+.forget_pas:hover
+{
+    color: #2a6971;
+    text-decoration-line: none;
+}
+.forget_pas
+{
+    color:black;
+    
+}
+.error{
+    background:#F2DEDE;
+    color:#A94442;
+    padding:10px;
+    width:95%;
+    border-radius:5px;
+}
+@media only screen and (max-width: 1000px) {
+    
+        .form {
+            width: 300px;
+        }
+      
+    
+  }

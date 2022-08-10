@@ -1,0 +1,124 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.topnav { 
+  background-color:#ebedec;
+  height: 56px;
+  margin-top: 0px;
+  justify-content: right;
+  overflow: hidden;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #3d3d3b;
+  color: white;
+}
+
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #ebedec;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #3d3d3b;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .inputfield{
+    width: 920px;
+    height: 60px;
+    margin-left: 16%;
+}
+.inputlabel{
+    font-size:20px;
+    margin-left: 16%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.category{
+    width: 920px;
+    margin-left: 16%;
+}
+#tag{
+    display: flex ;
+    flex-direction: column;
+    margin-left: 16%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 920px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 16%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 920px;
+    border-style: solid white;
+    background-color: white;
+    padding: 5px;
+}
